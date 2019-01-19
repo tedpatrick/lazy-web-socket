@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es2017",
+        "alwaysStrict": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "baseUrl": "./src/",
+        "paths": {
+            "*": ["node_modules/*"]
+        },
+        "allowJs": true
+    },
+    "include": ["./src/**/*", "./src/index.ts"]
+}
